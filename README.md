@@ -38,8 +38,8 @@ The compiling should generate a `main.o` binary executable file in
 
 # Notes
 The project ran properly in:
-- ARM Xubuntu 14.04.5 (trusty) with g++ version 4.8.4
-- X86_64 Debian 10.0 (buster) with g++ version 8.3.0
+- Xubuntu 14.04.5 (trusty) with g++ version 4.8.4
+- Debian 10.0 (buster) with g++ version 8.3.0
 
 # Contact
 For details contact Nestor! Happy playing :) 
