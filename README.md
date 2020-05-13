@@ -1,5 +1,5 @@
 # Introduction
-An implementation of the [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)) game in C++.
+An implementation of the [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)) game in C++
 
 # Getting the Project
 To get the project you can either fork it (top right icon), or clone it. To
@@ -28,7 +28,8 @@ either need to configure your IDE or access through the terminal as well.
 ~/mastermind-game$ g++ -std=c++11 *.cpp -o main.o
 ```
 
-The compiling should generate a "main.o" binary file in ~/mastermind-game
+The compiling should generate a `main.o` binary executable file in
+`~/mastermind-game`:
 
 3) To run the file simply type:
 ```
