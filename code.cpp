@@ -26,7 +26,7 @@ Code::Code (int code_length, int repeat_colors) :
     }
     else
     {
-        std::vector<int> index(m_code_length); // vector with m_code_length ints
+        std::vector<int> index(6); // vector with 6 ints for color indexes
         std::iota(std::begin(index), std::end(index), 0);
 
         for (int i = 0; i < m_code_length; ++i)
