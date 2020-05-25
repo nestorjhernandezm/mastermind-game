@@ -26,7 +26,7 @@ int main()
     int trials;
     std::cin >> trials;
 
-    std::cout << "Introduce the code length (integer)" << std::endl;
+    std::cout << "Introduce the code length (integer, default 4, maximum 6)" << std::endl;
     int length;
     std::cin >> length;
 

@@ -17,19 +17,19 @@ Code::Code (int code_length, int repeat_colors) :
 
     srand(static_cast<int>(time(0)));
 
-    if (repeat_colors)
+    if (m_repeat_colors)
     {
-        for (int i = 0; i < code_length; ++i)
+        for (int i = 0; i < m_code_length; ++i)
         {
             m_code[i] = color_list[rand() % 6];
         }
     }
     else
     {
-        std::vector<int> index(6); // vector with 100 ints.
+        std::vector<int> index(m_code_length); // vector with m_code_length ints
         std::iota(std::begin(index), std::end(index), 0);
 
-        for (int i = 0; i < code_length; ++i)
+        for (int i = 0; i < m_code_length; ++i)
         {
             int random_value = rand() % (int)(6 - i);
             m_code[i] = color_list[index[random_value]];
